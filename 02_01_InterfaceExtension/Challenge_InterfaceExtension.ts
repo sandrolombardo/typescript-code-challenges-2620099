@@ -3,6 +3,9 @@ interface MyPersonInterface {
 }
 
 // KEIN extend, KEIN &
+interface MyPersonInterface {
+  age: number;
+}
 
 const Person: MyPersonInterface = {
   name: "Danny",
