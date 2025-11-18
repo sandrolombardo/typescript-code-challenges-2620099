@@ -26,7 +26,7 @@ type Alphabet =
   | "y"
   | "z";
 
-type GermanUppercaseStrings = any;
+type GermanUppercaseStrings = `${Uppercase<Alphabet>}${string}`;
 
 // komplexe Lösung möglich, aber nicht notwendig
 
